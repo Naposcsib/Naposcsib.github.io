@@ -1,0 +1,38 @@
+html {background-image: url(/myFirstWebsite/assets/topography.png);}
+
+@font-face {font-family: "merri";
+src: url(/myFirstWebsite/assets/Merriweather-Bold.ttf);}
+
+@font-face {font-family: "merrilight";
+src: url(/myFirstWebsite/assets/Merriweather-Light.ttf);}
+
+@font-face {font-family: "conso";
+src: url(/myFirstWebsite/assets/consola.ttf);}
+
+.case1 {font-family: "merri";}
+.case2 {font-family: "merrilight";}
+.case3 {font-family: "conso";}
+
+.size1 {font-size: 70px;}
+.size2 {font-size: 40px;}
+.size3 {font-size: 30px;}
+.size4 {font-size: 27px;}
+.size5 {font-size: 47px;}
+.size6 {font-size: 21px;}
+
+.color1 {color:  rgb(255, 0, 179);}
+.color2 {color: rgb(230, 0, 153);}
+.color3 {background-color: rgb(43, 41, 41);}
+
+.bold {font-weight: bold;}
+.bolder {font-weight: bolder;}
+
+.margin {margin: 120px;}
+.margin2 {margin: 25px;}
+.margin3 {margin-left: 600px;}
+.margin4 {margin: 10px;}
+.margin5 {margin: 60px;}
+
+.center {text-align: center;}
+
+.line {line-height: 35px;}
