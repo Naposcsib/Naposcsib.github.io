@@ -9,30 +9,64 @@ src: url(/myFirstWebsite/assets/Merriweather-Light.ttf);}
 @font-face {font-family: "conso";
 src: url(/myFirstWebsite/assets/consola.ttf);}
 
-.case1 {font-family: "merri";}
-.case2 {font-family: "merrilight";}
-.case3 {font-family: "conso";}
-
-.size1 {font-size: 70px;}
-.size2 {font-size: 40px;}
-.size3 {font-size: 30px;}
-.size4 {font-size: 27px;}
-.size5 {font-size: 47px;}
-.size6 {font-size: 21px;}
-
-.color1 {color:  rgb(255, 0, 179);}
-.color2 {color: rgb(230, 0, 153);}
-.color3 {background-color: rgb(43, 41, 41);}
-
-.bold {font-weight: bold;}
-.bolder {font-weight: bolder;}
+.navbarColor {background-color: rgb(43, 41, 41);}
 
 .margin {margin: 120px;}
-.margin2 {margin: 25px;}
 .margin3 {margin-left: 600px;}
-.margin4 {margin: 10px;}
 .margin5 {margin: 60px;}
 
-.center {text-align: center;}
+.size1 {font-size: 70px;}
 
-.line {line-height: 35px;}
+.navLink {
+    font-family: "conso";
+    font-size: 27px;
+    color: rgb(230, 0, 153);
+    margin: 25px;
+}
+
+.mainTitle {
+    font-family: "merri";
+    font-size: 70px;
+    font-weight: bold;
+    margin: 120px;
+}
+
+.mainArticleTitle {
+    font-family: "merrilight";
+    font-size: 40px;
+    color:  rgb(255, 0, 179);
+    font-weight: bold;
+}
+
+.mainText {
+    font-family: "conso";
+    font-size: 27px;
+}
+
+.centerLine {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.centerTitle {
+    font-family: "merri";
+    font-size: 47px;
+    text-align: center;
+}
+
+.definitions {
+    margin: 120px;
+}
+
+.definitions p:nth-child(2n + 1) {
+    font-family: "merri";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.definitions p:nth-child(2n + 2) {
+    font-family: "conso";
+    font-size: 21px;
+    line-height: 35px;
+}
